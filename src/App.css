@@ -49,3 +49,20 @@ h1{
   border-radius: 0.5rem;
   font-size: 1.2rem;
 }
+
+.alert{
+  margin-bottom: 1.5rem;
+  height: 1.25rem;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.alert.error{
+  background: red;
+  color: whitesmoke;
+}
+
+.alert.success{
+  background: rgb(63, 228, 63);
+  color: black;
+}
