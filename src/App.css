@@ -44,10 +44,11 @@ h1{
   justify-content: space-between;
   margin-top: 0.5rem;
   padding: 0.25rem 1rem;
-  background-color: cornflowerblue;
+  background-color:rgb(127, 239, 233);
   box-shadow: 0 1px 3px rgb(0, 0, 0,0.7);
   border-radius: 0.5rem;
   font-size: 1.2rem;
+  font-weight: 600;
 }
 
 .alert{
@@ -65,4 +66,10 @@ h1{
 .alert.success{
   background: rgb(63, 228, 63);
   color: black;
+}
+
+.btn{
+  font-size: 1.6rem;
+  margin-left: 0.8rem;
+  cursor: pointer;
 }

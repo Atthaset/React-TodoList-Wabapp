@@ -70,7 +70,7 @@ function App() {
 
   return (
     <section className="container">
-      <h1>TodoList App</h1>
+      <h1>ToDoList-App</h1>
       {alert.show && <Alert {...alert} setAlert={setAlert} list={list} />}
       <form className="from-group" onSubmit={submitData}>
         <div className="from-control">
